@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - masterr 
+
+
+
+
+
+jobs:
+  bulid:
+    runs-on: unbutu-latest
+
+
+    steps:
+      - name: 'Testing Github action'
+        run: pwd
+
+      - name: 'Testing printing'
+        run: echo Menna
 
